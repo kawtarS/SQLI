@@ -83,6 +83,10 @@ namespace SQLIV2.InventaireData
             try
             {
                 return products.FirstOrDefault(x => x.barcode == bar); // if not found return null
+                /* var findBarCode = await products.barcode
+                    .Where(x => x.barcode == bar)
+                          .Select(x => x.Product).FirstOrDefaultAsync();*/
+            
             }
             catch (Exception ex)
             {
