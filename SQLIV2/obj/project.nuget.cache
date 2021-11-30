@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y4cs6lIhFFo/d7VPFutUNiwoPgw15gtm3yzDuXY90+dogwPCO9LUDiFm5Dvk0IZ+S3kPh+KGVsu3Dc9IpWOIzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kawtar\\source\\repos\\SQLIV2\\SQLIV2\\SQLIV2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kawtar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\kawtar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\kawtar\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\kawtar\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.21\\microsoft.netcore.app.host.win-x86.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}
