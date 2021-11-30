@@ -22,18 +22,18 @@ namespace SQLIV2.InventaireData
         Product GetProduct(int barcode);
         
         // •	Obtenir tous les éléments de la catégorie
-       public List<Product> GetProductsByCategory(string category);
+          List<Product> GetProductsByCategory(string category);
          
 
         //•	Obtenir tous les articles supérieurs à une valeur de remise particulière 
-        public List<Product> GetProductSup(int discount);
+        List<Product> GetProductSup(int discount);
             
         //•	Trier tous les articles en fonction du prix par ordre décroissant -
-        public List<Product> GetProductdecroissant();
+        List<Product> GetProductdecroissant();
         //•	Obtenir un élément par nom
-        public Product GetByName(string name);
+        Product GetByName(string name);
 
         //•	Modification de l'article 
-        public Product EditProduct(Product product);
+       Product EditProduct(Product product);
     }
 }
