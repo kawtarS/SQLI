@@ -83,7 +83,7 @@ namespace SQLIV2.Controllers
 
         }
         [HttpPost]//•	Ajout d'un nouvel élément 
-        public IActionResult GetEmployee([FromBody] Product epr)
+        public IActionResult GetProduct([FromBody] Product epr)
         {
             _Data.AddProduct(epr);
             return Created(HttpContext.Request.Scheme + "://" + HttpContext.Request.Host + HttpContext.Request.Path + "/" + epr.barcode, epr);
@@ -109,10 +109,11 @@ namespace SQLIV2.Controllers
              {
                 epr.barcode = existintproduit.barcode;
                  _Data.EditProduct(epr);
+                return NoContent();
 
             }
 
-            return Ok(epr);
+            return NotFound();
 
         }
 

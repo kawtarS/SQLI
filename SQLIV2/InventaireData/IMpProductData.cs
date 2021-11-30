@@ -118,7 +118,7 @@ namespace SQLIV2.InventaireData
         }
         public List<Product> GetProductSup(int discount)
         {
-            try { return products.Where(p => p.discount > discount).ToList(); ; }
+            try { return products.Where(p => p.discount > discount).ToList();  }
 
 
             catch (Exception ex)
