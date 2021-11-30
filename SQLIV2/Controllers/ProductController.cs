@@ -49,7 +49,7 @@ namespace SQLIV2.Controllers
                 return Ok(product);
             }
 
-            return NotFound();
+            return NotFound();//jai pas pu envoyer un tableeau vide
         }
         [HttpGet("{category}")]
         public IActionResult GetProductByCategory(String category)
@@ -109,11 +109,11 @@ namespace SQLIV2.Controllers
              {
                 epr.barcode = existintproduit.barcode;
                  _Data.EditProduct(epr);
-                return NoContent();
+                return NoContent();//La réponse HTTP doit être 204
 
             }
 
-            return NotFound();
+            return NotFound();//La réponse HTTP doit être 404.
 
         }
 
